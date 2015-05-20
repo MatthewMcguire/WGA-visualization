@@ -16,7 +16,7 @@
 		34271E131AEA96E000DEB821 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34271E121AEA96E000DEB821 /* Carbon.framework */; };
 		34271E161AEA986400DEB821 /* lib3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34271E141AEA986400DEB821 /* lib3D.cpp */; };
 		34271E191AEA9F1800DEB821 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34271E181AEA9F1800DEB821 /* CoreVideo.framework */; };
-		3499BD801B0D2B9E00036390 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3499BD7F1B0D2B9E00036390 /* README.md */; };
+		3499BD821B0D3B2400036390 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3499BD811B0D3B2400036390 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,7 +53,7 @@
 		34271E1C1AEB153300DEB821 /* equEarth-2048.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "equEarth-2048.gif"; sourceTree = "<group>"; };
 		3470C7371B0CFA7B00810317 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = en; path = "en.lproj/timelineTexture-annun.gif"; sourceTree = "<group>"; };
 		347E89941AEE907A00C509B0 /* vis_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vis_helpers.h; sourceTree = "<group>"; };
-		3499BD7F1B0D2B9E00036390 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3499BD811B0D3B2400036390 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		34B50D641AF97B920034CCB1 /* tweakbarFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweakbarFunctions.h; sourceTree = "<group>"; };
 		34D2937D1AFB7116000878BA /* wgaHighlightsGLSL.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaHighlightsGLSL.vert; sourceTree = "<group>"; };
 		34D2937E1AFB7128000878BA /* wgaHighlightsGLSL.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaHighlightsGLSL.frag; sourceTree = "<group>"; };
@@ -86,6 +86,7 @@
 		34271DF51AEA959700DEB821 = {
 			isa = PBXGroup;
 			children = (
+				3499BD811B0D3B2400036390 /* README.md */,
 				34271E181AEA9F1800DEB821 /* CoreVideo.framework */,
 				34271E121AEA96E000DEB821 /* Carbon.framework */,
 				34271E101AEA96D800DEB821 /* IOKit.framework */,
@@ -131,7 +132,6 @@
 				34271E151AEA986400DEB821 /* lib3D.h */,
 				34271E141AEA986400DEB821 /* lib3D.cpp */,
 				34271E1C1AEB153300DEB821 /* equEarth-2048.gif */,
-				3499BD7F1B0D2B9E00036390 /* README.md */,
 			);
 			path = "WGA visualization";
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3499BD801B0D2B9E00036390 /* README.md in Sources */,
+				3499BD821B0D3B2400036390 /* README.md in Sources */,
 				34271E161AEA986400DEB821 /* lib3D.cpp in Sources */,
 				34271E021AEA959800DEB821 /* main.cpp in Sources */,
 			);
