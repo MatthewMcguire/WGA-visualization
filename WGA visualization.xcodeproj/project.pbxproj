@@ -51,11 +51,11 @@
 		34271E1A1AEAA1CC00DEB821 /* wgaSphereGLSL.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaSphereGLSL.vert; sourceTree = "<group>"; };
 		34271E1B1AEAA1E700DEB821 /* wgaSphereGLSL.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaSphereGLSL.frag; sourceTree = "<group>"; };
 		34271E1C1AEB153300DEB821 /* equEarth-2048.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "equEarth-2048.gif"; sourceTree = "<group>"; };
-		3470C7371B0CFA7B00810317 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = en; path = "en.lproj/timelineTexture-annun.gif"; sourceTree = "<group>"; };
 		347E89941AEE907A00C509B0 /* vis_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vis_helpers.h; sourceTree = "<group>"; };
 		34B50D641AF97B920034CCB1 /* tweakbarFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweakbarFunctions.h; sourceTree = "<group>"; };
 		34D2612E1B0E3D0500183A9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		34D261371B0E46B200183A9B /* Broken Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Broken Earth.png"; sourceTree = "<group>"; };
+		34D261381B0E52C000183A9B /* timelineTexture-annun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "timelineTexture-annun.gif"; sourceTree = "<group>"; };
 		34D2937D1AFB7116000878BA /* wgaHighlightsGLSL.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaHighlightsGLSL.vert; sourceTree = "<group>"; };
 		34D2937E1AFB7128000878BA /* wgaHighlightsGLSL.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaHighlightsGLSL.frag; sourceTree = "<group>"; };
 		34DAC2211AF733A20026B077 /* wgaHistoGLSL.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaHistoGLSL.vert; sourceTree = "<group>"; };
@@ -111,8 +111,8 @@
 		34271E001AEA959800DEB821 /* WGA visualization */ = {
 			isa = PBXGroup;
 			children = (
+				34D261381B0E52C000183A9B /* timelineTexture-annun.gif */,
 				34D261361B0E46B200183A9B /* screenshots */,
-				3470C7381B0CFA7B00810317 /* timelineTexture-annun.gif */,
 				34E1941A1AF599CE009EB0ED /* timelineTexture-annun.png */,
 				34E194191AF599C6009EB0ED /* timelineTexture-poetmuse.gif */,
 				34E194181AF599A3009EB0ED /* timelineTexture-poetmuse.png */,
@@ -209,17 +209,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3470C7381B0CFA7B00810317 /* timelineTexture-annun.gif */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3470C7371B0CFA7B00810317 /* en */,
-			);
-			name = "timelineTexture-annun.gif";
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		34271E031AEA959800DEB821 /* Debug */ = {
