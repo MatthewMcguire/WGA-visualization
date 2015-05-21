@@ -55,7 +55,7 @@
 		347E89941AEE907A00C509B0 /* vis_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vis_helpers.h; sourceTree = "<group>"; };
 		34B50D641AF97B920034CCB1 /* tweakbarFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweakbarFunctions.h; sourceTree = "<group>"; };
 		34D2612E1B0E3D0500183A9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		34D261321B0E44BC00183A9B /* Broken Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Broken Earth.png"; path = "../Broken Earth.png"; sourceTree = "<group>"; };
+		34D261371B0E46B200183A9B /* Broken Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Broken Earth.png"; sourceTree = "<group>"; };
 		34D2937D1AFB7116000878BA /* wgaHighlightsGLSL.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaHighlightsGLSL.vert; sourceTree = "<group>"; };
 		34D2937E1AFB7128000878BA /* wgaHighlightsGLSL.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaHighlightsGLSL.frag; sourceTree = "<group>"; };
 		34DAC2211AF733A20026B077 /* wgaHistoGLSL.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaHistoGLSL.vert; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		34271E001AEA959800DEB821 /* WGA visualization */ = {
 			isa = PBXGroup;
 			children = (
-				34D261331B0E451000183A9B /* screenshots */,
+				34D261361B0E46B200183A9B /* screenshots */,
 				3470C7381B0CFA7B00810317 /* timelineTexture-annun.gif */,
 				34E1941A1AF599CE009EB0ED /* timelineTexture-annun.png */,
 				34E194191AF599C6009EB0ED /* timelineTexture-poetmuse.gif */,
@@ -138,12 +138,12 @@
 			path = "WGA visualization";
 			sourceTree = "<group>";
 		};
-		34D261331B0E451000183A9B /* screenshots */ = {
+		34D261361B0E46B200183A9B /* screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				34D261321B0E44BC00183A9B /* Broken Earth.png */,
+				34D261371B0E46B200183A9B /* Broken Earth.png */,
 			);
-			name = screenshots;
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
