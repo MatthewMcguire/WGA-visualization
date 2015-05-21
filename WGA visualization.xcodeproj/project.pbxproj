@@ -16,6 +16,7 @@
 		34271E131AEA96E000DEB821 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34271E121AEA96E000DEB821 /* Carbon.framework */; };
 		34271E161AEA986400DEB821 /* lib3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34271E141AEA986400DEB821 /* lib3D.cpp */; };
 		34271E191AEA9F1800DEB821 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34271E181AEA9F1800DEB821 /* CoreVideo.framework */; };
+		34D2612F1B0E3D0500183A9B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 34D2612E1B0E3D0500183A9B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		3470C7371B0CFA7B00810317 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = en; path = "en.lproj/timelineTexture-annun.gif"; sourceTree = "<group>"; };
 		347E89941AEE907A00C509B0 /* vis_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vis_helpers.h; sourceTree = "<group>"; };
 		34B50D641AF97B920034CCB1 /* tweakbarFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweakbarFunctions.h; sourceTree = "<group>"; };
+		34D2612E1B0E3D0500183A9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		34D2937D1AFB7116000878BA /* wgaHighlightsGLSL.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaHighlightsGLSL.vert; sourceTree = "<group>"; };
 		34D2937E1AFB7128000878BA /* wgaHighlightsGLSL.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaHighlightsGLSL.frag; sourceTree = "<group>"; };
 		34DAC2211AF733A20026B077 /* wgaHistoGLSL.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = wgaHistoGLSL.vert; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		34271DF51AEA959700DEB821 = {
 			isa = PBXGroup;
 			children = (
+				34D2612E1B0E3D0500183A9B /* README.md */,
 				34271E181AEA9F1800DEB821 /* CoreVideo.framework */,
 				34271E121AEA96E000DEB821 /* Carbon.framework */,
 				34271E101AEA96D800DEB821 /* IOKit.framework */,
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D2612F1B0E3D0500183A9B /* README.md in Sources */,
 				34271E161AEA986400DEB821 /* lib3D.cpp in Sources */,
 				34271E021AEA959800DEB821 /* main.cpp in Sources */,
 			);
