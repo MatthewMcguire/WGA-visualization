@@ -111,29 +111,16 @@
 		34271E001AEA959800DEB821 /* WGA visualization */ = {
 			isa = PBXGroup;
 			children = (
-				34D261381B0E52C000183A9B /* timelineTexture-annun.gif */,
+				34D261391B0E592800183A9B /* textures */,
 				34D261361B0E46B200183A9B /* screenshots */,
-				34E1941A1AF599CE009EB0ED /* timelineTexture-annun.png */,
-				34E194191AF599C6009EB0ED /* timelineTexture-poetmuse.gif */,
-				34E194181AF599A3009EB0ED /* timelineTexture-poetmuse.png */,
 				34F61DED1AF2A08400635CDD /* BetterSphere.h */,
 				34271E171AEA991500DEB821 /* main.h */,
 				34271E011AEA959800DEB821 /* main.cpp */,
 				347E89941AEE907A00C509B0 /* vis_helpers.h */,
-				34271E1A1AEAA1CC00DEB821 /* wgaSphereGLSL.vert */,
-				34271E1B1AEAA1E700DEB821 /* wgaSphereGLSL.frag */,
-				3408D79D1AF433E900042C59 /* wgaPanelGLSL.vert */,
-				3408D79E1AF4343800042C59 /* wgaPanelGLSL.frag */,
-				3408D79F1AF43D0B00042C59 /* wgaSliderGLSL.vert */,
-				3408D7A01AF43D2300042C59 /* wgaSliderGLSL.frag */,
-				34DAC2211AF733A20026B077 /* wgaHistoGLSL.vert */,
-				34DAC2221AF733B40026B077 /* wgaHistoGLSL.frag */,
-				34D2937D1AFB7116000878BA /* wgaHighlightsGLSL.vert */,
-				34D2937E1AFB7128000878BA /* wgaHighlightsGLSL.frag */,
+				34D2613A1B0E593B00183A9B /* shaders */,
 				34B50D641AF97B920034CCB1 /* tweakbarFunctions.h */,
 				34271E151AEA986400DEB821 /* lib3D.h */,
 				34271E141AEA986400DEB821 /* lib3D.cpp */,
-				34271E1C1AEB153300DEB821 /* equEarth-2048.gif */,
 			);
 			path = "WGA visualization";
 			sourceTree = "<group>";
@@ -144,6 +131,35 @@
 				34D261371B0E46B200183A9B /* Broken Earth.png */,
 			);
 			path = screenshots;
+			sourceTree = "<group>";
+		};
+		34D261391B0E592800183A9B /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				34D261381B0E52C000183A9B /* timelineTexture-annun.gif */,
+				34E1941A1AF599CE009EB0ED /* timelineTexture-annun.png */,
+				34E194191AF599C6009EB0ED /* timelineTexture-poetmuse.gif */,
+				34E194181AF599A3009EB0ED /* timelineTexture-poetmuse.png */,
+				34271E1C1AEB153300DEB821 /* equEarth-2048.gif */,
+			);
+			name = textures;
+			sourceTree = "<group>";
+		};
+		34D2613A1B0E593B00183A9B /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				34271E1A1AEAA1CC00DEB821 /* wgaSphereGLSL.vert */,
+				34271E1B1AEAA1E700DEB821 /* wgaSphereGLSL.frag */,
+				3408D79D1AF433E900042C59 /* wgaPanelGLSL.vert */,
+				3408D79E1AF4343800042C59 /* wgaPanelGLSL.frag */,
+				3408D79F1AF43D0B00042C59 /* wgaSliderGLSL.vert */,
+				3408D7A01AF43D2300042C59 /* wgaSliderGLSL.frag */,
+				34DAC2211AF733A20026B077 /* wgaHistoGLSL.vert */,
+				34DAC2221AF733B40026B077 /* wgaHistoGLSL.frag */,
+				34D2937D1AFB7116000878BA /* wgaHighlightsGLSL.vert */,
+				34D2937E1AFB7128000878BA /* wgaHighlightsGLSL.frag */,
+			);
+			name = shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
